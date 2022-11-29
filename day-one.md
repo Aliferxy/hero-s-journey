@@ -6,7 +6,7 @@ React.Js e Next.js **(Curso)**
  Três videos introdutórios comentando um pouco sobre React.Js / Next.js.
  
  
-## Javascript Essencial
+## Javascript Essenciais
 
 ### Functions
 > Executa uma determinada função que for designada.
@@ -34,7 +34,10 @@ React.Js e Next.js **(Curso)**
 > Função pertencente à uma classe, mas não instânciada
 
 ### Promises
+> Utiliza com aplicações assíncronas, obriga necessariamente uma ordem para que o javascript execute o código. Utiliza os parâmetros (resolve, reject).
 
+### Async/Await
+> É uma sintaxe que facilita a leitura de um código assícrono, porém lido pelo javascript como síncrono (Utiliza Try/Catch).
 
 ## Primeiros passos
 > Novos comandos aprendidos.
