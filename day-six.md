@@ -1,5 +1,24 @@
 # Dia 6
 
+## Javascript essencial
+### Expressão regular
+São padrões utilizados para selecionar combinações de caracteres presentes em uma String.
+> Geralmente são identificados por /(*combinação de caractere*/ ou RegExp
+>> Utilize // para const, e RegExp para Let para obter melhor performance
+>>> Acrescente **g** ao final caso queira verificar toda String.
+
+### Replace
+É um método que retorna uma nova String com alterações na mesma, feitas por você.
+
+### parseInt
+Analisa um valor e retorna um numero Int.
+
+### parseFloat
+Analisa um valor e retorna um numero Float.
+
+### Rest
+Utilizado de forma parecida com Spread, o rest nos permite ter um número ilimitado de parâmetros como uma array.
+
 ## Iniciando TypeScript
 É um superset set de Javascript, potencializa a linguagem adicionando uma nova sintaxe com tipagem estática.
 > Comando necessário para instalar a dependêcia Typescript no seu projeto.
@@ -7,7 +26,7 @@
 $ npm install typescript
 ```
 > Crie um arquivo chamado tsconfig.json para editar suas prefências em Typescript.
->> Crie um compilador no package.json com script "tsc", para compilar o código Typescript para Javascript.
+>> Crie um compilador no **package.json** com script "tsc", para compilar o código Typescript para Javascript.
 >>> É possivel automatizar o processo de compilação utilizando o script "tsc" com parâmetro -w.
 
 ### Modificador: private
@@ -15,3 +34,11 @@ Utilizando Typescript é possível modificar propriedades, tornando as mesmas pr
 
 ### Modificador: public
 Caso não especificar o modificador private, ou inserir public antes de seu atributo. Ele será publico, sendo possível acessar de qualquer um.
+
+### Type: Any
+Tipo padrão adotado por Typescript quando não definimos tipos para nossas variaveis.
+> É possivel desabilitar o tipo Any dentro de **tsconfig.json**, utilizando comando **noImplicitAny: true**
+
+### Previnir mutabilidade de listas privadas
+Utilizar Spread pode resolver o problema, mas existe outra forma mais "aceita". Renomear o type da lista para **ReadonlyArray**, fara que sua lista tenha o aspecto de array, porém sem as mesmas porpriedades. (O nome em sí é literal, apenas leitura) 
+
