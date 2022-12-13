@@ -69,7 +69,7 @@ São padrões utilizados para selecionar combinações de caracteres presentes e
 >> Utilize // para const, e RegExp para Let para obter melhor performance
 >>> Acrescente **g** ao final caso queira verificar toda String.
 
-## Replace
+## replace
 É um método que retorna uma nova String com alterações na mesma, feitas por você.
 
 ## parseInt
