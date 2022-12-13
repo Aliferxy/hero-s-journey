@@ -1,23 +1,4 @@
-# Dia 6
-
-## Javascript essencial
-### Expressão regular
-São padrões utilizados para selecionar combinações de caracteres presentes em uma String.
-> Geralmente são identificados por /(*combinação de caractere*/ ou RegExp
->> Utilize // para const, e RegExp para Let para obter melhor performance
->>> Acrescente **g** ao final caso queira verificar toda String.
-
-### Replace
-É um método que retorna uma nova String com alterações na mesma, feitas por você.
-
-### parseInt
-Analisa um valor e retorna um numero Int.
-
-### parseFloat
-Analisa um valor e retorna um numero Float.
-
-### Rest
-Utilizado de forma parecida com Spread, o rest nos permite ter um número ilimitado de parâmetros como uma array.
+# Typescript
 
 ## Iniciando TypeScript
 É um superset set de Javascript, potencializa a linguagem adicionando uma nova sintaxe com tipagem estática.
